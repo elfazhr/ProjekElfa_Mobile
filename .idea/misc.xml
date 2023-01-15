@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Balbogz/Mobile/ProjekElfa_Mobile/app/src/main/res/drawable/button.xml" value="0.1605" />
+        <entry key="..\:/Balbogz/Mobile/ProjekElfa_Mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/drawable/bulat.xml" value="0.145" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/drawable/edit_textbg.xml" value="0.1545" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_bg_rv.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_detail_retrofit.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_history.xml" value="0.18660287081339713" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_intro_page.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_list_detail_retrofit.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_list_roti.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_pesan.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_profil.xml" value="0.11428571428571428" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_register.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_roti.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_sukses_order.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/activity_utama.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/bg_history.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/boarding_page1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/boarding_page2.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/boarding_page3.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/item_slide.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/ProjekElfa_Mobile43/app/src/main/res/layout/pke.xml" value="0.17447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_marginBottom="20dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/gambar_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40px"
+            android:src="@drawable/default_roti" />
+
+        <TextView
+            android:id="@+id/bread_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gambar_user"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-120dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_toEndOf="@+id/gambar_user"
+            android:text="Bread"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bread_tv"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/gambar_user"
+            android:fontFamily="@font/poppins_regular"
+            android:text="amount"
+            android:textColor="#4E4132"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/notes_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount_tv"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/gambar_user"
+            android:text="Notes"
+            android:textColor="#4E4132"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notes_tv"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/gambar_user"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Price"
+            android:textColor="@color/coklat_tua"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

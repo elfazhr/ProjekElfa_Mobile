@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gambar_intro">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="131dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bacaan_intro">
+
+                </ImageView>
+
+                <RelativeLayout
+                    android:layout_width="326dp"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/continueBtn"
+                    android:layout_width="119dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:fontFamily="@font/poppins_regular"
+                    android:onClick="intro"
+                    android:text="Start"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3A3937"
+                    tools:ignore="OnClick" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486320573469",
+    "project_id": "elfamobile-bbcb8",
+    "storage_bucket": "elfamobile-bbcb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486320573469:android:c606e7a6ebc73df3848af4",
+        "android_client_info": {
+          "package_name": "com.example.projekelfa_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486320573469-51utb2p7jrce8teaqjn3l7fcgdqpsjda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn6ob09wUB0emPQYpLVztbqDyqP6RzvJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486320573469-51utb2p7jrce8teaqjn3l7fcgdqpsjda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

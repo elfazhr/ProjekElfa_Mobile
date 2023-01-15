@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_pesan">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="@color/coklat_tua">
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_user"
+                    android:id="@+id/profil" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_back"
+                    android:id="@+id/back" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Order Now"
+            android:textColor="#46321A"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Please fill the form below"
+            android:textColor="#A79F96"
+            android:textSize="13dp"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Bread"
+            android:textColor="#46321A"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/inputBread"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="10dp"
+            android:hint="Input here..."
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_textbg" />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Amount"
+            android:textColor="#46321A"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/inputAmount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="10dp"
+            android:hint="Input here..."
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_textbg" />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Total Price"
+            android:textColor="#46321A"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/inputTtlPrice"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="10dp"
+            android:hint="Input here..."
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_textbg" />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Notes"
+            android:textColor="#46321A"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/inputNotes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_textbg"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Input here..."
+            android:paddingLeft="10dp"
+            android:textSize="13dp" />
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_marginTop="50dp"
+            android:layout_width="282dp"
+            android:layout_marginLeft="35dp"
+            android:layout_height="49dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Order Now"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
